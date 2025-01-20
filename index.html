@@ -25,9 +25,30 @@
 
             </ul>
             <img src="img/Logo.svg" alt="Logo AluraBooks" class="container__imagem">
+            <h1 class="container__titulo"><b class="container__titulo--negrito">Alura</b>Books</h1>
         </div>
+
+        <ul class="opcoes">
+            <input type="checkbox" id="opcoes-menu" class="opcoes__botao">
+            <label for="opcoes-menu">
+                <li class="opcoes__item">Categorias</li>
+            </label>
+
+            <ul class="lista-menu">
+                <li class="lista-menu__titulo">Categorias</li>
+                <li class="lista-menu__item"><a href="#" class="lista-menu__link">Lançamentos</a></li>
+                <li class="lista-menu__item"><a href="#" class="lista-menu__link">Ação</a></li>
+                <li class="lista-menu__item"><a href="#" class="lista-menu__link">Drama</a></li>
+                <li class="lista-menu__item"><a href="#" class="lista-menu__link">Terror</a></li>
+                <li class="lista-menu__item"><a href="#" class="lista-menu__link">Comedia</a></li>
+
+            </ul>
+            <li class="opcoes__item"><a href="#" class="opcoes__link">Favoritos</a></li>
+            <li class="opcoes__item"><a href="#" class="opcoes__link">Minha estante</a></li>
+        </ul>
+
         <div class="container">
-            <a href="#"><img src="img/Favoritos.svg" alt="Meus Favoritos" class="container__imagem"></a>
+            <a href="#"><img src="img/Favoritos.svg" alt="Meus Favoritos" class="container__imagem-transparente"></a>
             <a href="#"><img src="img/Compras.svg" alt="Compras" class="container__imagem"></a>
             <a href="#"><img src="img/Usuario.svg" alt="Usuario" class="container__imagem"></a>
         </div>
@@ -73,7 +94,7 @@
                     <h2 class="descricao__titulo-livro">Com a melhor qualidade e facilidade</h2>
                     <p class="descricao__texto">Filmes lançamentos em alta definição sem precisar sair de casa, ou assinar plataformas com preços abusivos</p>
                 </div>
-                <img src="filmes/criancas-assistindo-a-filmes.webp" width="180" height="200" alt="descricao__imagem">
+                <img src="filmes/criancas-assistindo-a-filmes.webp" alt="descricao__imagem" class="img__criancas">
             </div>    
             <!-- 2º linha -->
             <div class="card__botoes">
@@ -120,12 +141,12 @@
            <div class="card__descricao">
                <!-- 1º Coluna -->
                <div class="descricao">
-                    <img src="img/Estrelinhas.svg" alt="Estrelinhas">
+                    <img src="img/Estrelinhas.svg" alt="Estrelinhas" >
                     <h3 class="descricao__titulo">Lançamento do Mês </h3>
                     <h2 class="descricao__titulo-livro">Nosferatu</h2>
                     <p class="descricao__texto">Nosferatu é um conto gótico sobre a obsessão de um terrível vampiro por uma mulher assombrada. </p>
                </div>
-               <img src="filmes/nosfe.webp" width="400" height="200" alt="descricao__imagem">
+               <img src="filmes/nosfe.webp" alt="descricao__imagem" class="img__descricao">
            </div>    
            <!-- 2º linha -->
            <div class="card__botoes">
@@ -173,8 +194,10 @@
     </section>
 
     <section class="contato">
-        <h2 class="contato__titulo">Fique por dentro das novidades!</h2>
-        <p class="contato__texto">Atualizações de Serie, novos Filmes, promoções e outros.</p>
+        <div class="contato__descricao">
+            <h2 class="contato__titulo">Fique por dentro das novidades!</h2>
+            <p class="contato__texto">Atualizações de Serie, novos Filmes, promoções e outros.</p>
+        </div>
         <input type="email" placeholder="cadastre seu email" class="contato__email">
     </section>
 
@@ -182,6 +205,82 @@
 
     <footer class="rodape">
         <h2 class="rodape__titulo">Grupo One Filmes</h2>
+        <ul class="lista-rodape">
+            <li class="lista-rodape__titulo">Educação</li>
+            <li class="lista-rodape__titulo">
+                <img src="incones/pipoca.png" alt="pipoca" class="img_incones">
+                <a href="#" class="lista-rodape__link">casa do codigo</a>
+            </li>
+            <li class="lista-rodape__titulo">
+                <img src="incones/pipoca.png" alt="pipoca" class="img_incones">
+                <a href="#" class="lista-rodape__link">caelum</a>
+            </li>
+        </ul>
+
+        <ul class="lista-rodape">
+            <li class="lista-rodape__titulo">Educação online</li>
+            <li class="lista-rodape__item">
+                <img src="incones/pipoca.png" alt="pipoca" class="img_incones">
+                <a href="#" class="lista-rodape__link">One Filmes</a>
+            </li>
+            <li class="lista-rodape__item">
+                <img src="incones/pipoca.png" alt="pipoca" class="img_incones">
+                <a href="#" class="lista-rodape__link">OneFilmes para empresas</a>
+            </li>
+            <li class="lista-rodape__item">
+                <img src="incones/pipoca.png" alt="pipoca" class="img_incones">
+                <a href="#" class="lista-rodape__link">OneFilmes LATAM</a>
+            </li>
+            <li class="lista-rodape__item">
+                <img src="incones/pipoca.png" alt="pipoca" class="img_incones">
+                <a href="#" class="lista-rodape__link">OneFilmes Start</a>
+            </li>
+            <li class="lista-rodape__item">
+                <img src="incones/pipoca.png" alt="pipoca" class="img_incones">
+                <a href="#" class="lista-rodape__link">MusicDot</a>
+            </li>
+            <li class="lista-rodape__item">
+                <img src="incones/pipoca.png" alt="pipoca" class="img_incones">
+                <a href="#" class="lista-rodape__link">OneFilmes Idiomas</a>
+            </li>
+            <li class="lista-rodape__item">
+                <img src="img/PM3.svg" alt="pipoca" class="img_incones">
+                <a href="#" class="lista-rodape__link">PM3</a>
+            </li>
+            
+        </ul>
+        <ul class="lista-rodape">
+            <li class="lista-rodape__titulo">Comunidade</li>
+            <li class="lista-rodape__item">
+                <img src="img/HipstersTech.svg" alt="pipoca" class="img_incones">
+                <a href="#" class="lista-rodape__link">Hipsters ponto tech</a>
+            </li>
+            <li class="lista-rodape__item">
+                <img src="img/ScubaDev.svg" alt="pipoca" class="img_incones">
+                <a href="#" class="lista-rodape__link">Scuba Dev</a>
+            </li>
+            <li class="lista-rodape__item">
+                <img src="img/LayersTech.svg" alt="pipoca" class="img_incones">
+                <a href="#" class="lista-rodape__link">Layers ponto tech</a>
+            </li>
+            <li class="lista-rodape__item">
+                <img src="img/LikeABoss.svg" alt="pipoca" class="img_incones">
+                <a href="#" class="lista-rodape__link">Like a Boss</a>
+            </li>
+            <li class="lista-rodape__item">
+                <img src="img/CarreiraSemFronteira.svg" alt="pipoca" class="img_incones">
+                <a href="#" class="lista-rodape__link">Carreira sem fronteira</a>
+            </li>
+            <li class="lista-rodape__item">
+                <img src="img/HipstersJobs.svg" alt="pipoca" class="img_incones">
+                <a href="#" class="lista-rodape__link">Hipsters ponto jobs</a>
+            </li>
+            <li class="lista-rodape__item">
+                <img src="img/GUJ.svg" alt="pipoca" class="img_incones">
+                <a href="#" class="lista-rodape__link">GUJ</a>
+            </li>
+
+        </ul>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
